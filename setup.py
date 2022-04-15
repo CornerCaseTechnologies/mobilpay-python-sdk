@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="mobilpay python sdk",
-    version="1.0.0b1",
+    version="v1.0.0b1",
     author="MobilPay",
     author_email="contact@web2sms.ro",
     description="A supposed sdk for making payments using mobilpay platform",
