@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="mobilpay python sdk",
-    version="v1.0.0b1",
+    version="v1.0.1b1",
     author="MobilPay",
     author_email="contact@web2sms.ro",
     description="A supposed sdk for making payments using mobilpay platform",
@@ -21,5 +21,5 @@ setuptools.setup(
     ],
     packages=setuptools.find_packages(),
     python_requires=">=3.6",
-    install_requires=["pycrypto", "pyopenssl"],
+    install_requires=["pycryptodome", "pyopenssl"],
 )
